@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		85B9BA522A1D14DD003BDB00 /* AppleNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9BA512A1D14DD003BDB00 /* AppleNewsApp.swift */; };
-		85B9BA542A1D14DD003BDB00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9BA532A1D14DD003BDB00 /* ContentView.swift */; };
 		85B9BA562A1D14E0003BDB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B9BA552A1D14E0003BDB00 /* Assets.xcassets */; };
 		85B9BA592A1D14E0003BDB00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B9BA582A1D14E0003BDB00 /* Preview Assets.xcassets */; };
+		85B9BA612A1D152F003BDB00 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B9BA602A1D152F003BDB00 /* NewsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85B9BA4E2A1D14DD003BDB00 /* AppleNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B9BA512A1D14DD003BDB00 /* AppleNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleNewsApp.swift; sourceTree = "<group>"; };
-		85B9BA532A1D14DD003BDB00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85B9BA552A1D14E0003BDB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B9BA582A1D14E0003BDB00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85B9BA602A1D152F003BDB00 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				85B9BA512A1D14DD003BDB00 /* AppleNewsApp.swift */,
-				85B9BA532A1D14DD003BDB00 /* ContentView.swift */,
+				85B9BA5F2A1D14E7003BDB00 /* Views */,
 				85B9BA552A1D14E0003BDB00 /* Assets.xcassets */,
 				85B9BA572A1D14E0003BDB00 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				85B9BA582A1D14E0003BDB00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85B9BA5F2A1D14E7003BDB00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85B9BA602A1D152F003BDB00 /* NewsListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85B9BA542A1D14DD003BDB00 /* ContentView.swift in Sources */,
 				85B9BA522A1D14DD003BDB00 /* AppleNewsApp.swift in Sources */,
+				85B9BA612A1D152F003BDB00 /* NewsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
